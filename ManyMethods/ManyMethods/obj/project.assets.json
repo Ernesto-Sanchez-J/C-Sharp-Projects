@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\own\\Documents\\Devfolder\\C-Sharp-Programs\\C-Sharp-Programs\\ManyMethods\\ManyMethods\\ManyMethods.csproj",
+      "projectUniqueName": "C:\\Users\\own\\Documents\\Devfolder\\C-Sharp-Programs\\ManyMethods\\ManyMethods\\ManyMethods.csproj",
       "projectName": "ManyMethods",
-      "projectPath": "C:\\Users\\own\\Documents\\Devfolder\\C-Sharp-Programs\\C-Sharp-Programs\\ManyMethods\\ManyMethods\\ManyMethods.csproj",
+      "projectPath": "C:\\Users\\own\\Documents\\Devfolder\\C-Sharp-Programs\\ManyMethods\\ManyMethods\\ManyMethods.csproj",
       "packagesPath": "C:\\Users\\own\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\own\\Documents\\Devfolder\\C-Sharp-Programs\\C-Sharp-Programs\\ManyMethods\\ManyMethods\\obj\\",
+      "outputPath": "C:\\Users\\own\\Documents\\Devfolder\\C-Sharp-Programs\\ManyMethods\\ManyMethods\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
