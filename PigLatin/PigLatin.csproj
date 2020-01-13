@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Include="C:\Users\own\Documents\Devfolder\C-Sharp-Programs\Piglatin.cs" Link="Piglatin.cs" />
+  </ItemGroup>
+
 </Project>
