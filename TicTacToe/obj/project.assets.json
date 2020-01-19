@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\own\\Documents\\Devfolder\\C-Sharp-Programs\\TicTacToe\\TicTacToe\\TicTacToe.csproj",
+      "projectUniqueName": "C:\\Users\\own\\Documents\\Devfolder\\C-Sharp-Programs\\TicTacToe\\TicTacToe.csproj",
       "projectName": "TicTacToe",
-      "projectPath": "C:\\Users\\own\\Documents\\Devfolder\\C-Sharp-Programs\\TicTacToe\\TicTacToe\\TicTacToe.csproj",
+      "projectPath": "C:\\Users\\own\\Documents\\Devfolder\\C-Sharp-Programs\\TicTacToe\\TicTacToe.csproj",
       "packagesPath": "C:\\Users\\own\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\own\\Documents\\Devfolder\\C-Sharp-Programs\\TicTacToe\\TicTacToe\\obj\\",
+      "outputPath": "C:\\Users\\own\\Documents\\Devfolder\\C-Sharp-Programs\\TicTacToe\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
