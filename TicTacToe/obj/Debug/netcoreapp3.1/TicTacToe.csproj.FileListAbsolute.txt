@@ -1,0 +1,3 @@
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\TicTacToe\obj\Debug\netcoreapp3.1\TicTacToe.csprojAssemblyReference.cache
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\TicTacToe\obj\Debug\netcoreapp3.1\TicTacToe.AssemblyInfoInputs.cache
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\TicTacToe\obj\Debug\netcoreapp3.1\TicTacToe.AssemblyInfo.cs
