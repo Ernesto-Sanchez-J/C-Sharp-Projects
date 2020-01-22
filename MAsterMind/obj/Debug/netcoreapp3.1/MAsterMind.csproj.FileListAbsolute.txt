@@ -1,0 +1,11 @@
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\MAsterMind\obj\Debug\netcoreapp3.1\MAsterMind.csprojAssemblyReference.cache
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\MAsterMind\obj\Debug\netcoreapp3.1\MAsterMind.AssemblyInfoInputs.cache
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\MAsterMind\obj\Debug\netcoreapp3.1\MAsterMind.AssemblyInfo.cs
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\MAsterMind\bin\Debug\netcoreapp3.1\MAsterMind.exe
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\MAsterMind\bin\Debug\netcoreapp3.1\MAsterMind.deps.json
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\MAsterMind\bin\Debug\netcoreapp3.1\MAsterMind.runtimeconfig.json
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\MAsterMind\bin\Debug\netcoreapp3.1\MAsterMind.runtimeconfig.dev.json
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\MAsterMind\bin\Debug\netcoreapp3.1\MAsterMind.dll
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\MAsterMind\bin\Debug\netcoreapp3.1\MAsterMind.pdb
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\MAsterMind\obj\Debug\netcoreapp3.1\MAsterMind.dll
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\MAsterMind\obj\Debug\netcoreapp3.1\MAsterMind.pdb
