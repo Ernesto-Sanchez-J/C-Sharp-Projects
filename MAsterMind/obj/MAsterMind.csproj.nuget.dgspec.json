@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\own\\Documents\\Devfolder\\C-Sharp-Programs\\MAsterMind\\MAsterMind.csproj": {}
+    "C:\\Users\\own\\Documents\\Devfolder\\C-Sharp-Programs\\MAsterMind\\MasterMind.csproj": {}
   },
   "projects": {
-    "C:\\Users\\own\\Documents\\Devfolder\\C-Sharp-Programs\\MAsterMind\\MAsterMind.csproj": {
+    "C:\\Users\\own\\Documents\\Devfolder\\C-Sharp-Programs\\MAsterMind\\MasterMind.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\own\\Documents\\Devfolder\\C-Sharp-Programs\\MAsterMind\\MAsterMind.csproj",
-        "projectName": "MAsterMind",
-        "projectPath": "C:\\Users\\own\\Documents\\Devfolder\\C-Sharp-Programs\\MAsterMind\\MAsterMind.csproj",
+        "projectUniqueName": "C:\\Users\\own\\Documents\\Devfolder\\C-Sharp-Programs\\MAsterMind\\MasterMind.csproj",
+        "projectName": "MasterMind",
+        "projectPath": "C:\\Users\\own\\Documents\\Devfolder\\C-Sharp-Programs\\MAsterMind\\MasterMind.csproj",
         "packagesPath": "C:\\Users\\own\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\own\\Documents\\Devfolder\\C-Sharp-Programs\\MAsterMind\\obj\\",
         "projectStyle": "PackageReference",
