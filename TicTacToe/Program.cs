@@ -42,7 +42,7 @@ namespace TicTacToe
 
             public TicTacToe(int player, string playerName)
             {
-                PlayerName = playerName
+                PlayerName = playerName;
                 Player = player;
                 board = new int[3, 3];
             }
@@ -75,7 +75,7 @@ namespace TicTacToe
 
                 if (playerName != "computer") //player v player
                 {
-                    Console.WriteLine("Enter where to place yout symbol");
+                    Console.WriteLine("Enter where to place your symbol");
                     int.TryParse(Console.ReadLine().Trim(), out r);
                     int.TryParse(Console.ReadLine().Trim(), out c);
                 }
@@ -89,7 +89,7 @@ namespace TicTacToe
                 {
                     if (playerName != "computer") // not computer player
                     {
-                        Console.WriteLine("Entered incorrect location. Try again.")
+                        Console.WriteLine("Entered incorrect location. Try again.");
                         int.TryParse(Console.ReadLine().Trim(), out r);
                         int.TryParse(Console.ReadLine().Trim(), out c);
                     }
@@ -106,7 +106,7 @@ namespace TicTacToe
                 if (win())
                 {
                     if (PlayerName.Equals("computer"))
-                        Console.WriteLine("Computer Wins!!")
+                        Console.WriteLine("Computer Wins!!");
                     else
                         Console.WriteLine("Congratulations" + PlayerName + " . You Win!!");
                     return true; // game over, somone wins

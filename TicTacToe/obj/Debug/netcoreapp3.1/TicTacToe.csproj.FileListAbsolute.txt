@@ -1,3 +1,11 @@
 C:\Users\own\Documents\Devfolder\C-Sharp-Programs\TicTacToe\obj\Debug\netcoreapp3.1\TicTacToe.csprojAssemblyReference.cache
 C:\Users\own\Documents\Devfolder\C-Sharp-Programs\TicTacToe\obj\Debug\netcoreapp3.1\TicTacToe.AssemblyInfoInputs.cache
 C:\Users\own\Documents\Devfolder\C-Sharp-Programs\TicTacToe\obj\Debug\netcoreapp3.1\TicTacToe.AssemblyInfo.cs
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\TicTacToe\bin\Debug\netcoreapp3.1\TicTacToe.exe
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\TicTacToe\bin\Debug\netcoreapp3.1\TicTacToe.deps.json
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\TicTacToe\bin\Debug\netcoreapp3.1\TicTacToe.runtimeconfig.json
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\TicTacToe\bin\Debug\netcoreapp3.1\TicTacToe.runtimeconfig.dev.json
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\TicTacToe\bin\Debug\netcoreapp3.1\TicTacToe.dll
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\TicTacToe\bin\Debug\netcoreapp3.1\TicTacToe.pdb
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\TicTacToe\obj\Debug\netcoreapp3.1\TicTacToe.dll
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\TicTacToe\obj\Debug\netcoreapp3.1\TicTacToe.pdb
