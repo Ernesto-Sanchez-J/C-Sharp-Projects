@@ -9,12 +9,12 @@ namespace MasterMind
     //"1-0" if they guessed one of the colors correctly but not at the correct position
     //"1-1" if they guessed one of the colors correctly at the correct position
     //"2-0" if they guessed both colors correctly but at the wrong positions
+    //"2-2" if they guessed both colors correctly and both positions
     public class MasterMind
     {
-        private string[] _colors = new string[] { "red", "yellow", "blue" };
+        private string[] _colors = new string[] { "red", "yellow", "blue" };  //string array with colors
         private string _color1;
         private string _color2;
-
         private void _initGame()
         {
             var rand = new Random();
@@ -24,6 +24,7 @@ namespace MasterMind
             _color1 = _colors[index1];
             _color2 = _colors[index2];
         }
+
 
         private bool _checkGuess(string guess)
         {
@@ -37,7 +38,7 @@ namespace MasterMind
             if (guesses[0] == _color1) positionsCorrect++;
             if (guesses[1] == _color2) positionsCorrect++;
 
-            if (colorsCorrect == 2 && colorsCorrect == 2)
+            if (colorsCorrect == 2 && positionsCorrect == 2)
             {
                 return true;
             }
@@ -78,6 +79,8 @@ namespace MasterMind
         {
             var game = new MasterMind();
             game.Play();
+           
+           
             Console.ReadLine();
         }
     }
