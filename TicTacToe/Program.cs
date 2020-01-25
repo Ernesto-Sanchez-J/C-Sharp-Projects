@@ -13,11 +13,11 @@ namespace TicTacToe
             Console.WriteLine("Enter player 1 name: ");
             playerName = Console.ReadLine();
             TicTacToe player1 = new TicTacToe(1, playerName);
-            Console.WriteLine("Enter player 2 name: (Type 'computer' if you want to play against computer");
+            Console.WriteLine("Enter player 2 name: (Type 'computer' if you want to play against computer");  //will be computer or human player depending on name
             playerName = Console.ReadLine();
             TicTacToe player2 = new TicTacToe(2, playerName);
 
-            while (!gameOver)
+            while (!gameOver)  //while loop for determining the game state
             {
                 TicTacToe.intBoard();
                 while (!player1.Playgame() && !player2.Playgame())
@@ -35,7 +35,7 @@ namespace TicTacToe
             Console.ReadLine();
         }
 
-        class TicTacToe
+        class TicTacToe  //setting up the game with player names
         {
             static int[,] board;
             string playerName;
@@ -75,7 +75,7 @@ namespace TicTacToe
 
                 if (playerName != "computer") //player v player
                 {
-                    Console.WriteLine("Enter where to place your symbol");
+                    Console.WriteLine("Enter where to place your symbol");  //takes a row first and then enter to write your column next
                     int.TryParse(Console.ReadLine().Trim(), out r);
                     int.TryParse(Console.ReadLine().Trim(), out c);
                 }
@@ -89,7 +89,7 @@ namespace TicTacToe
                 {
                     if (playerName != "computer") // not computer player
                     {
-                        Console.WriteLine("Entered incorrect location. Try again.");
+                        Console.WriteLine("Entered incorrect location. Try again.");  //takes a row first and then enter to write your column next
                         int.TryParse(Console.ReadLine().Trim(), out r);
                         int.TryParse(Console.ReadLine().Trim(), out c);
                     }
@@ -100,7 +100,7 @@ namespace TicTacToe
                     }
                 }
 
-                board[r - 1, c - 1] = Player;
+                board[r - 1, c - 1] = Player;  // takes input from player and subtracts one because 1-4 is some what easier to understand then 0-3
                 displayBoard();
 
                 if (win())
@@ -147,13 +147,13 @@ namespace TicTacToe
             }
 
 
-            private bool draw()
+            private bool draw()  //determines board space like empty spaces
             {
                 for (int r = 0; r < 3; r++)
                 {
                     for (int c = 0; c < 3; c++)
                     {
-                        if (board[r, c] != 1 && board[r, c] != 2)
+                        if (board[r, c] != 1 && board[r, c] != 2) 
                             return false;  //not a draw
                     }
                 }
@@ -163,7 +163,7 @@ namespace TicTacToe
 
 
 
-            private bool checkBoard(int r, int c)
+            private bool checkBoard(int r, int c)  //also checks board
             {
                 bool OK = false;
                 if (r > 3 || c > 3  || r < 1 || c < 1)
@@ -175,7 +175,7 @@ namespace TicTacToe
                 return OK;
 
             }
-            public static void intBoard()
+            public static void intBoard() //prints out board
             {
                 for (int r = 0; r < 3; r++)
                 {
