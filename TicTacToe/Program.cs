@@ -68,7 +68,7 @@ namespace TicTacToe
 
             public bool Playgame()
             {
-                int r = 0;
+                int r = 0;  //setting variables
                 int c = 0;
                 Random rand1 = new Random();
                 Random rand2 = new Random();
