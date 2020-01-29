@@ -6,15 +6,15 @@ namespace ManyMethods
     {
         static void Main(string[] args)
         {
-            //Hello();
-            //Addition();
-            //catDog();
-            //oddEvent();
+            Hello();
+            Addition();
+            catDog();
+            oddEvent();
             inches();
             echo();
-            killgrams();
-            DateTime();
-            Age();
+            killGrams();
+            date();
+            age();
             guess();
         }
 
@@ -54,13 +54,13 @@ namespace ManyMethods
             }
             Console.Read();
         }
-        //Need to look into syntax error// 
+        //tells you if a number is odd or even
         static void oddEvent()
         {
             int userNumber = 0;
             Console.WriteLine("Enter a number.");
             userNumber = int.Parse(Console.ReadLine());
-            if (userNumber % 2 == 0) ;
+            if (userNumber % 2 == 0)
             {
                 Console.WriteLine("The number is even.");
             }
@@ -70,14 +70,15 @@ namespace ManyMethods
             }
             Console.Read();
         }
-        static void inches();
+        //converts feet to inches
+        static void inches()
         {
             Console.WriteLine("Enter a length in feet.");
             int feet = int.Parse(Console.ReadLine());
         Console.WriteLine(feet + " feet is equal to " + (feet* 12) + " inches");
             Console.Read();
         }
-
+        //rewrites a word on the line
         static void echo()
         {
         Console.WriteLine("Enter a word to be echoed.");
@@ -87,7 +88,7 @@ namespace ManyMethods
         Console.Read();
 
         }
-
+        //converts poind into kilograms
         static void killGrams()
         {
         Console.WriteLine("Enter a weight in pounds.");
@@ -96,7 +97,7 @@ namespace ManyMethods
         Console.WriteLine(pounds + " pounds is equal to " + kilograms + " kilograms");
         Console.Read();
         }
-
+        //gives out the time and date
         static void date()
         {
         Console.Write("Current Date and Time is : ");
@@ -104,7 +105,7 @@ namespace ManyMethods
         Console.WriteLine(now);
         Console.ReadLine();
         }
-
+        //takes what year you were born in and gets your age
         static void age()
         {
         Console.Write("What year were you born?");
@@ -112,12 +113,12 @@ namespace ManyMethods
         Console.WriteLine("You are " + (2019 - birthYear) + " years old.");
         Console.ReadLine();
         }
-
+        //makes the user guess a word, that word is "csharp"
         static void guess()
         {
         Console.WriteLine("Guess the word");
         string userGuess = Console.ReadLine();
-        if (userGuess == "csarp")
+        if (userGuess == "csharp")
         {
             Console.WriteLine("Correct.");
         }
