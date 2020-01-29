@@ -1,0 +1,3 @@
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\PigLatin\obj\Debug\netcoreapp3.1\PigLatin.csprojAssemblyReference.cache
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\PigLatin\obj\Debug\netcoreapp3.1\PigLatin.AssemblyInfoInputs.cache
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\PigLatin\obj\Debug\netcoreapp3.1\PigLatin.AssemblyInfo.cs

@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Give me a word to translate.");
             string userWord = Console.ReadLine();
-            string convertedWord = PigLatin(userWord);
+            string convertedWord = PigLatin(word);
             Console.WriteLine(convertedWord);
             Console.Read();
         }
