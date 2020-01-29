@@ -81,11 +81,10 @@ namespace ManyMethods
         //rewrites a word on the line
         static void echo()
         {
-        Console.WriteLine("Enter a word to be echoed.");
-        string echoWord = Console.ReadLine();
-        string upperEchoWord = echoWord.ToUpper();
-        Console.WriteLine(upperEchoWord + " " + echoWord + " " + echoWord);
-        Console.Read();
+            Console.WriteLine("Enter a word to be echoed.");
+            string echoWord = Console.ReadLine();
+            Console.WriteLine(string.Format("{0},{1},{2}", echoWord.ToUpper(), echoWord.ToLower(), echoWord.ToLower()));
+            Console.Read();
 
         }
         //converts poind into kilograms
