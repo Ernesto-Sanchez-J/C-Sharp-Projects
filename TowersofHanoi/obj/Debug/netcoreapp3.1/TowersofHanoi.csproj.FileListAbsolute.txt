@@ -1,0 +1,3 @@
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\TowersofHanoi\obj\Debug\netcoreapp3.1\TowersofHanoi.csprojAssemblyReference.cache
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\TowersofHanoi\obj\Debug\netcoreapp3.1\TowersofHanoi.AssemblyInfoInputs.cache
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\TowersofHanoi\obj\Debug\netcoreapp3.1\TowersofHanoi.AssemblyInfo.cs

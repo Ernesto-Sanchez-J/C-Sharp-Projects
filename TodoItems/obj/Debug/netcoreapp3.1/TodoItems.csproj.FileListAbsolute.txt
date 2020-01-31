@@ -1,0 +1,11 @@
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\TodoItems\bin\Debug\netcoreapp3.1\TodoItems.exe
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\TodoItems\bin\Debug\netcoreapp3.1\TodoItems.deps.json
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\TodoItems\bin\Debug\netcoreapp3.1\TodoItems.runtimeconfig.json
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\TodoItems\bin\Debug\netcoreapp3.1\TodoItems.runtimeconfig.dev.json
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\TodoItems\bin\Debug\netcoreapp3.1\TodoItems.dll
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\TodoItems\bin\Debug\netcoreapp3.1\TodoItems.pdb
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\TodoItems\obj\Debug\netcoreapp3.1\TodoItems.csprojAssemblyReference.cache
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\TodoItems\obj\Debug\netcoreapp3.1\TodoItems.AssemblyInfoInputs.cache
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\TodoItems\obj\Debug\netcoreapp3.1\TodoItems.AssemblyInfo.cs
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\TodoItems\obj\Debug\netcoreapp3.1\TodoItems.dll
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\TodoItems\obj\Debug\netcoreapp3.1\TodoItems.pdb
