@@ -5,45 +5,69 @@ namespace TodoItems
 {
     class Program
     {
-        public static string Description;
-        public static string Date;
-        public static string Priority;
-        public static string Continue;
-
         static void Main(string[] args)
         {
-            Console.WriteLine("Your To Do app is ready for input.");
-            
-            Console.Write("Enter the description: ");
-            Description = Console.ReadLine();
-            Console.Write("Enter date due: ");
-            Date = Console.ReadLine();
-            Console.Write("Enter Priority, Low, Medium, High: ");
-            Priority = Console.ReadLine();
-            Console.WriteLine("Anymore inputs? yes or no");
-            Continue = Console.ReadLine();
-                if
-                {
-                Continue == no;
-                }
-                else
-                {
+            bool Check = false;
+            bool Quit = false;
 
-                }
-
-                List<String> input = new List<String>();
+            List<ToDoItems> MyList = new List<ToDoItems>();
+            String Response = Console.ReadLine().ToUpper();
+            while (!Check)
+            {
+                Console.WriteLine("Your To Do app is ready for input.");
+                Console.Write("Anymore inputs? yes or no: ");
+                string answer = Console.ReadLine();
+                if (answer == "yes")
                 {
-                input.Add(Description);
-                input.Add(Date);
-                input.Add(Priority);
+                    Check = true;
+                    while (!Quit)
+                    {
+                        Console.Write("Enter the description: ");
+                        string Description = Console.ReadLine();
+                        Console.Write("Enter date due: ");
+                        string Date = Console.ReadLine();
+                        Console.Write("Enter Priority, Low, Medium, High: ");
+                        string Priority = Console.ReadLine();
+                        MyList.Add(new ToDoItems(Description, Date, Priority));
+                        Console.Write("Anymore inputs? yes or no: ");
+                        String answer1 = Console.ReadLine();
+                        if (answer1 == "no")
+                        {
+                            break;
+                        }
+                        else if (answer1 == "yes")
+                        {
+                            continue;
+                        }
+                        else
+                        {
+                            Console.WriteLine("A yes or no is required, try again.");
+                            continue;
+                        }
+                    }
                 }
-                
-
+                Console.WriteLine("Description                       | Due Date       |   Priority");
+                Console.WriteLine("----------------------------------|----------------|-----------");
+                foreach (ToDoItems Items in MyList)
+                {
+                    Items.PrintList();
+                }
+            }
         }
-        
+    }
+    class ToDoItems
+    {
+        public string Description { get; set; }
+        public string Date { get; set; }
+        public string Priority { get; set; }
 
-
-
+        public ToDoItems(string InitDescription, string InitDate, string InitPriority)
+        {
+           void PrintList() 
+            {
+                Console.WriteLine(" " + (Description) + "           |" + (Date) + "   |" + "    " + (Priority));
+            }
+        }
     }
 }
       

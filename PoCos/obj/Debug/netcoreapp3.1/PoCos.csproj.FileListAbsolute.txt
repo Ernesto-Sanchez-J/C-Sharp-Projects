@@ -1,0 +1,3 @@
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\PoCos\obj\Debug\netcoreapp3.1\PoCos.csprojAssemblyReference.cache
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\PoCos\obj\Debug\netcoreapp3.1\PoCos.AssemblyInfoInputs.cache
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\PoCos\obj\Debug\netcoreapp3.1\PoCos.AssemblyInfo.cs
