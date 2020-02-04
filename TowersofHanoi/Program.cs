@@ -1,107 +1,100 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace TowersofHanoi
+namespace TowerOfHanoi
 {
-    // Towers of Hanoi
-    class Program
+    public class TowersofHanoi
     {
-        private static Dictionary<string, Stack<int>> board = new Dictionary<string, Stack<int>>();
-        static void Main(string[] args)
+        private Dictionary<string, Stack<int>> _board = new Dictionary<string, Stack<int>>
         {
-            Stack<int> stack = new Stack<int>();
-            stack.Push(4);
-            stack.Push(3);
-            stack.Push(2);
-            stack.Push(1);
-            board.Add("A", stack);
-            board.Add("B", new Stack<int>());
-            board.Add("C", new Stack<int>());
+            { "A", new Stack<int>() },
+            { "B", new Stack<int>() },
+            { "C", new Stack<int>() }
+        };
 
-            do
-            {
-                Console.Clear();
-                PrintBoard();
-                Console.WriteLine("Enter the tower to move FROM.");
-                string from = Console.ReadLine().ToUpper();
-                Console.WriteLine("Enter the tower to move TO.");
-                string to = Console.ReadLine().ToUpper();
-
-                if (IsMoveValid(from, to))
-                {
-                    // use the stack.Push(object) to move the peg from the original position to the new position
-                    // you can substitute the "object" in the push method with the stack.Pop() 
-                    // ex:  stack.Push(stack.Pop());
-                }
-                else
-                {
-                    Console.WriteLine("Move was not valid.");
-                    Console.WriteLine("Press any key to try again.");
-                    Console.ReadKey();
-                }
-
-            } while (!CheckWin());
-
-            Console.Clear();
-            PrintBoard();
-            Console.WriteLine("You win!");
-            Console.ReadKey();
+        public TowersofHanoi()
+        {
+            _initBoard();
         }
 
-        private static bool IsMoveValid(string from, string to)
+        public void Play()
         {
-            // if the count is zero, it means the tower has nothing to move, and you can't move nothing
-            if (board[from].Count == 0)
+            while (!_gameOver())
             {
-                // nothing in this tower
-                return false;
-            }
-            else if (to == from)
-            {
-                // can't move a peg from and to the same tower
-                return ??;
-            }
-            // check that the destination tower is not empty before using Peek, otherwise it will throw an error
-            else if (board[to].Count != 0)
-            {
-                // can't move a larger number on top of a smaller number
-                if (??.Peek() > ??.Peek()) //code needs to add a variable
-                {
-                    return ??;
-                }
-
-                // if the above expression is false, it assumes the move is legal
-                return true;
-            }
-            else // move is legal
-            {
-                return ??;
+                _printBoard();
+                _askMove();
             }
         }
 
-        private static bool CheckWin()
+        private void _initBoard()
         {
-            // How many items must there be in Stack "C" to win?
-            if (board["C"].Count = ??)
+            for (int i = 4; i > 0; i--)
             {
-                return true;
+                _board["A"].Push(i);
             }
-            return false;
         }
 
-        private static void PrintBoard()
+        private void _printBoard()
         {
-            foreach (var item in board)
+            foreach (var key in _board.Keys)
             {
-                Console.Write($"\n{item.Key}: ");
-                var numbers = item.Value.ToArray();
-                // print values in reverse order.  You can also use Linq:  .Reverse() instead of a FOR loop
-                for (int i = numbers.Length; i > 0; i--)
-                {
-                    Console.Write(numbers[i - 1] + " ");
-                }
+                Console.Write(key + ": ");
+                _printStack(_board[key]);
                 Console.WriteLine();
             }
+        }
+
+        private void _printStack(Stack<int> stack)
+        {
+            int[] arr = stack.ToArray();
+
+            for (int i = arr.Length - 1; i >= 0; i--)
+            {
+                Console.Write(arr[i] + " ");
+            }
+        }
+
+        private bool _gameOver()
+        {
+            return _board["B"].Count == 4 || _board["C"].Count == 4;
+
+        }
+
+        private void _askMove()
+        {
+            Console.WriteLine("Which tower should we move from? [A/B/C]?");
+            var towerFrom = Console.ReadLine().ToUpper();
+            Console.WriteLine("Which tower should we move to? [A/B/C]?");
+            var towerTo = Console.ReadLine().ToUpper();
+
+            if (_isLegalMove(towerFrom, towerTo))
+            {
+                _move(towerFrom, towerTo);
+            }
+            else
+            {
+                Console.WriteLine("Illegal move made, try again.");
+            }
+        }
+
+        private void _move(string from, string to)
+        {
+            _board[to].Push(_board[from].Pop());
+        }
+
+        private bool _isLegalMove(string from, string to)
+        {
+            return _board[from].Count != 0 && (_board[to].Count == 0 || _board[from].Peek() < _board[to].Peek());
+        }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var game = new TowersofHanoi();
+            game.Play();
+            Console.ReadLine();
         }
     }
 }

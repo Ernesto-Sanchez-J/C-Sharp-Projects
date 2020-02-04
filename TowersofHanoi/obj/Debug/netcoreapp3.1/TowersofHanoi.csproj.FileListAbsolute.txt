@@ -1,3 +1,11 @@
 C:\Users\own\Documents\Devfolder\C-Sharp-Programs\TowersofHanoi\obj\Debug\netcoreapp3.1\TowersofHanoi.csprojAssemblyReference.cache
 C:\Users\own\Documents\Devfolder\C-Sharp-Programs\TowersofHanoi\obj\Debug\netcoreapp3.1\TowersofHanoi.AssemblyInfoInputs.cache
 C:\Users\own\Documents\Devfolder\C-Sharp-Programs\TowersofHanoi\obj\Debug\netcoreapp3.1\TowersofHanoi.AssemblyInfo.cs
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\TowersofHanoi\bin\Debug\netcoreapp3.1\TowersofHanoi.exe
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\TowersofHanoi\bin\Debug\netcoreapp3.1\TowersofHanoi.deps.json
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\TowersofHanoi\bin\Debug\netcoreapp3.1\TowersofHanoi.runtimeconfig.json
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\TowersofHanoi\bin\Debug\netcoreapp3.1\TowersofHanoi.runtimeconfig.dev.json
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\TowersofHanoi\bin\Debug\netcoreapp3.1\TowersofHanoi.dll
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\TowersofHanoi\bin\Debug\netcoreapp3.1\TowersofHanoi.pdb
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\TowersofHanoi\obj\Debug\netcoreapp3.1\TowersofHanoi.dll
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\TowersofHanoi\obj\Debug\netcoreapp3.1\TowersofHanoi.pdb
