@@ -2,11 +2,17 @@
 
 namespace SuperHeroes
 {
-    class Program
+    public class Person
     {
-        static void Main(string[] args)
+        public string name { get; set; }
+        public string Nickname { get; set; }
+
+        public Person(string name, string Nickname)
         {
-            Console.WriteLine("Hello World!");
+            name
+            Nickname
         }
+        
+
     }
 }
