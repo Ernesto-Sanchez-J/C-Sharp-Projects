@@ -62,9 +62,9 @@ namespace TowerOfHanoi
 
         private void _askMove()
         {
-            Console.WriteLine("Which tower should we move from? [A/B/C]?");
+            Console.WriteLine("Which tower do you want to move from? [A/B/C]?");
             var towerFrom = Console.ReadLine().ToUpper();
-            Console.WriteLine("Which tower should we move to? [A/B/C]?");
+            Console.WriteLine("Which tower do you want to move to? [A/B/C]?");
             var towerTo = Console.ReadLine().ToUpper();
 
             if (_isLegalMove(towerFrom, towerTo))
