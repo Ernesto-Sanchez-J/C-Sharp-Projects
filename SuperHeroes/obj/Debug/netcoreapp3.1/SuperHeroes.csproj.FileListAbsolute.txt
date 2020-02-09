@@ -1,0 +1,11 @@
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\SuperHeroes\bin\Debug\netcoreapp3.1\SuperHeroes.exe
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\SuperHeroes\bin\Debug\netcoreapp3.1\SuperHeroes.deps.json
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\SuperHeroes\bin\Debug\netcoreapp3.1\SuperHeroes.runtimeconfig.json
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\SuperHeroes\bin\Debug\netcoreapp3.1\SuperHeroes.runtimeconfig.dev.json
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\SuperHeroes\bin\Debug\netcoreapp3.1\SuperHeroes.dll
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\SuperHeroes\bin\Debug\netcoreapp3.1\SuperHeroes.pdb
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\SuperHeroes\obj\Debug\netcoreapp3.1\SuperHeroes.csprojAssemblyReference.cache
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\SuperHeroes\obj\Debug\netcoreapp3.1\SuperHeroes.AssemblyInfoInputs.cache
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\SuperHeroes\obj\Debug\netcoreapp3.1\SuperHeroes.AssemblyInfo.cs
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\SuperHeroes\obj\Debug\netcoreapp3.1\SuperHeroes.dll
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\SuperHeroes\obj\Debug\netcoreapp3.1\SuperHeroes.pdb
