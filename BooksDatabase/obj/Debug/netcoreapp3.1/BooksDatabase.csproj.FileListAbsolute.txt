@@ -1,0 +1,11 @@
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\BooksDatabase\bin\Debug\netcoreapp3.1\BooksDatabase.exe
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\BooksDatabase\bin\Debug\netcoreapp3.1\BooksDatabase.deps.json
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\BooksDatabase\bin\Debug\netcoreapp3.1\BooksDatabase.runtimeconfig.json
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\BooksDatabase\bin\Debug\netcoreapp3.1\BooksDatabase.runtimeconfig.dev.json
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\BooksDatabase\bin\Debug\netcoreapp3.1\BooksDatabase.dll
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\BooksDatabase\bin\Debug\netcoreapp3.1\BooksDatabase.pdb
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\BooksDatabase\obj\Debug\netcoreapp3.1\BooksDatabase.csprojAssemblyReference.cache
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\BooksDatabase\obj\Debug\netcoreapp3.1\BooksDatabase.AssemblyInfoInputs.cache
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\BooksDatabase\obj\Debug\netcoreapp3.1\BooksDatabase.AssemblyInfo.cs
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\BooksDatabase\obj\Debug\netcoreapp3.1\BooksDatabase.dll
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\BooksDatabase\obj\Debug\netcoreapp3.1\BooksDatabase.pdb
