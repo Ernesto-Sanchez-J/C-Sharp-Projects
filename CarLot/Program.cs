@@ -7,20 +7,18 @@ namespace CarLot
     {
         static void Main()
         {
-            CarLot C1 = new CarLot("C-1");
-            CarLot R7 = new CarLot("R-7");
-            Vehicle car1 = new Truck("G1ZBG", "Ford", "F-150", 40000, 5);
-            Vehicle car2 = new Car("HG63TV", "Hyundai", "Elantra", 24000, "Sedan", 4);
-            C1.AddCar(car1);
-            C1.AddCar(car2);
-            Vehicle car3 = new Truck("LBK-3399", "Toyota", "Tundra", 45000, 6);
-            Vehicle car4 = new Car("NCM-5453", "Chevrolet", "Corvette", 65000, "Coupe", 2);
-            R7.AddCar(car3);
-            R7.AddCar(car4);
-            C1.PrintInventory();
+            CarLot UsedCars = new CarLot("Luie's");
+            
+            Vehicle car1 = new Truck("1E102", "Ford", "F-150", 40000, 5);
+            Vehicle car2 = new Car("10202", "Toyota", "Camry", 24000, "Sedan", 4);
+            UsedCars.AddCar(car1);
+            UsedCars.AddCar(car2);
+            Vehicle car3 = new Truck("10101", "Toyota", "Tocoma", 45000, 6);
+            Vehicle car4 = new Car("1E201", "Chevrolet", "Corvette", 65000, "Coupe", 2);
+            UsedCars.AddCar(car3);
+            UsedCars.AddCar(car4);
+            UsedCars.PrintInventory();
             Console.WriteLine(" ");
-            R7.PrintInventory();
-            Console.Read();
         }
     }
 
@@ -42,7 +40,7 @@ namespace CarLot
 
         public virtual void PrintInventory()
         {
-            Console.WriteLine("Parking lot {0} has the following vehicles parked in it:", Name);
+            Console.WriteLine("Car lot {0} has the following vehicles parked in it:", Name);
             foreach (Vehicle vehicle in ListCars)
             {
                 Console.WriteLine(vehicle.VehicleDesc());
