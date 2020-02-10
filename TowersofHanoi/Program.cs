@@ -95,6 +95,7 @@ namespace TowerOfHanoi
             var game = new TowersofHanoi();
             game.Play();
             Console.ReadLine();
+            Console.WriteLine("Game Over!");
         }
     }
 }
