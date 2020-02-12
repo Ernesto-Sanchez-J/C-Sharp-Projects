@@ -5,6 +5,9 @@ namespace TowerOfHanoi
 {
     public class TowersofHanoi
     {
+        
+
+
         private Dictionary<string, Stack<int>> _board = new Dictionary<string, Stack<int>>
         {
             { "A", new Stack<int>() },
@@ -92,10 +95,16 @@ namespace TowerOfHanoi
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("This is the classic game Towers of Hanoi.");
+            Console.WriteLine("We have towers A, B, and C. We use 4, 3, 2, 1 for the rinigs.");
+            Console.WriteLine("4 being the largest ring to 1 being the smallest.");
+            Console.WriteLine("The goal is to get all the rings from tower A to another ring in the same order. ");
+            Console.WriteLine("You cannot move a larger ring onto a smaller ring.");
+            Console.WriteLine("Goodluck.");
             var game = new TowersofHanoi();
             game.Play();
             Console.ReadLine();
-            Console.WriteLine("Game Over!");
+            Console.WriteLine("You Win!");
         }
     }
 }
