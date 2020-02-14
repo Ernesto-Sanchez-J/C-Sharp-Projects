@@ -1,0 +1,3 @@
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\Checkers\obj\Debug\netcoreapp3.1\Checkers.csprojAssemblyReference.cache
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\Checkers\obj\Debug\netcoreapp3.1\Checkers.AssemblyInfoInputs.cache
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\Checkers\obj\Debug\netcoreapp3.1\Checkers.AssemblyInfo.cs

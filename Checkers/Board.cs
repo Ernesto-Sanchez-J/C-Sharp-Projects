@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text;
 
 namespace Checkers
 {
-    static void Main(string[] args)
+    class Board
     {
-        Game()= new Game
     }
 }
