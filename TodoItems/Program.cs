@@ -63,11 +63,13 @@ namespace TodoItems
 
         public ToDoItems(string InitDescription, string InitDate, string InitPriority)
         {
-           void PrintList() 
-            {
+
+        }    
+                public void PrintList()
+                {
                 Console.WriteLine(" " + (Description) + "           |" + (Date) + "   |" + "    " + (Priority));
+                }
             }
-        }
     }
 }
       
