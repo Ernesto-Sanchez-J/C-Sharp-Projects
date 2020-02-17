@@ -46,8 +46,8 @@ namespace TodoItems
                         }
                     }
                 }
-                Console.WriteLine("Description                       | Due Date       |   Priority");
-                Console.WriteLine("----------------------------------|----------------|-----------");
+                Console.WriteLine("Description                   | Due Date       |   Priority");
+                Console.WriteLine("------------------------------|----------------|-----------");
                 foreach (ToDoItems Items in MyList)
                 {
                     Items.PrintList();
@@ -63,13 +63,15 @@ namespace TodoItems
 
         public ToDoItems(string InitDescription, string InitDate, string InitPriority)
         {
-
+            this.Description = InitDescription;
+            this.Date = InitDate;
+            this.Priority = InitPriority;
         }    
-                public void PrintList()
-                {
-                Console.WriteLine(" " + (Description) + "           |" + (Date) + "   |" + "    " + (Priority));
-                }
-            }
+        public void PrintList()
+        {
+        Console.WriteLine(" " + (Description) + "                   |     " + (Date) + "      |" + "    " + (Priority));
+        }
+            
     }
 }
       

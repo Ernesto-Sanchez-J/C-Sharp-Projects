@@ -1,0 +1,11 @@
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\Inventory\bin\Debug\netcoreapp3.1\Inventory.exe
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\Inventory\bin\Debug\netcoreapp3.1\Inventory.deps.json
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\Inventory\bin\Debug\netcoreapp3.1\Inventory.runtimeconfig.json
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\Inventory\bin\Debug\netcoreapp3.1\Inventory.runtimeconfig.dev.json
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\Inventory\bin\Debug\netcoreapp3.1\Inventory.dll
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\Inventory\bin\Debug\netcoreapp3.1\Inventory.pdb
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\Inventory\obj\Debug\netcoreapp3.1\Inventory.csprojAssemblyReference.cache
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\Inventory\obj\Debug\netcoreapp3.1\Inventory.AssemblyInfoInputs.cache
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\Inventory\obj\Debug\netcoreapp3.1\Inventory.AssemblyInfo.cs
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\Inventory\obj\Debug\netcoreapp3.1\Inventory.dll
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\Inventory\obj\Debug\netcoreapp3.1\Inventory.pdb
