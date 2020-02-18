@@ -1,3 +1,11 @@
 C:\Users\own\Documents\Devfolder\C-Sharp-Programs\Checkers\obj\Debug\netcoreapp3.1\Checkers.csprojAssemblyReference.cache
 C:\Users\own\Documents\Devfolder\C-Sharp-Programs\Checkers\obj\Debug\netcoreapp3.1\Checkers.AssemblyInfoInputs.cache
 C:\Users\own\Documents\Devfolder\C-Sharp-Programs\Checkers\obj\Debug\netcoreapp3.1\Checkers.AssemblyInfo.cs
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\Checkers\bin\Debug\netcoreapp3.1\Checkers.exe
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\Checkers\bin\Debug\netcoreapp3.1\Checkers.deps.json
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\Checkers\bin\Debug\netcoreapp3.1\Checkers.runtimeconfig.json
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\Checkers\bin\Debug\netcoreapp3.1\Checkers.runtimeconfig.dev.json
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\Checkers\bin\Debug\netcoreapp3.1\Checkers.dll
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\Checkers\bin\Debug\netcoreapp3.1\Checkers.pdb
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\Checkers\obj\Debug\netcoreapp3.1\Checkers.dll
+C:\Users\own\Documents\Devfolder\C-Sharp-Programs\Checkers\obj\Debug\netcoreapp3.1\Checkers.pdb
