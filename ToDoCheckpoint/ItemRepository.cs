@@ -4,17 +4,22 @@ using System.Text;
 
 namespace ToDoCheckpoint
 {
-    class ItemRepository
+    public class ItemRepository
     {
-
-
-        public int Id { get; private set; }
-        public string Description { get; set; }
-        public string DueDate { get; set; }
-        public ItemRepository(string Description, string DueDate)
+        public class ItemRepository
         {
-            this.Description = Description;
-            this.DueDate = DueDate;
+            ItemContext context = new ItemContent();
+
+            public void AddItem(ToDoItem item)
+            {
+                context.Add(item);
+                context.SaveChanges();
+            }
+            public void DeleteItem(ToDoItem item)
+            {
+                context.Remove(item);
+                context.SaveChanges();
+            }
         }
     }
 }
