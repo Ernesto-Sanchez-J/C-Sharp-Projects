@@ -8,12 +8,12 @@ namespace ToDoCheckpoint
 {
     class ItemContext : DbContext
     {
-        public DbSet<ItemRepository> entries { get; set; }
+        public DbSet<ItemRepository> ToDoItems { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             DirectoryInfo ExecutionDirectory = new DirectoryInfo(AppContext.BaseDirectory);
             DirectoryInfo ProjectBase = ExecutionDirectory.Parent.Parent.Parent;
-            String DatabaseFile = Path.Combine(ProjectBase.FullName, "entries.db");
+            String DatabaseFile = Path.Combine(ProjectBase.FullName, "ToDoItems.db");
             optionsBuilder.UseSqlite("Data Source=" + DatabaseFile);
         }
     }

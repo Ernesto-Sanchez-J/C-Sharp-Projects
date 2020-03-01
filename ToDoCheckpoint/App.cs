@@ -15,7 +15,7 @@ namespace ToDoCheckpoint
         public void Start()
         {
             string desc = utils.EnterItemDescription();
-            DateTime due = Utils.EnterDueDate();
+            DateTime due = utils.EnterDueDate();
 
             ToDoItem item = new ToDoItem(desc, false, due);
             repo.AddItem(item);
