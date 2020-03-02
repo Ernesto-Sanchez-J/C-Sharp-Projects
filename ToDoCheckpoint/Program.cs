@@ -2,11 +2,14 @@
 
 namespace ToDoCheckpoint
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        //public ItemContext context = new ItemContext();  did not need to run
+        public static App app = new App();
+        public static string choice = " ";
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-        }
+            app.Start();
+        }   
     }
 }

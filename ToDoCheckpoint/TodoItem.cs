@@ -10,11 +10,14 @@ namespace ToDoCheckpoint
         public string Description { get; set; }
         public bool Status { get; set; }
 
-        public ToDoItem(string InitDescription, int InitId, string InitStatus)
+        public ToDoItem(string InitDescription)
         {
             this.Description = InitDescription;
-            this.Id = InitId;
             this.Status = false;
+        }
+        public ToDoItem()
+        {
+
         }
     }
 }

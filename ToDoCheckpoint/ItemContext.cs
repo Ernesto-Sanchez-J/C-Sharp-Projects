@@ -6,9 +6,9 @@ using System.IO;
 
 namespace ToDoCheckpoint
 {
-    class ItemContext : DbContext
+    public class ItemContext : DbContext
     {
-        public DbSet<ItemRepository> ToDoItems { get; set; }
+        public DbSet<ToDoItem> ToDoItems { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             DirectoryInfo ExecutionDirectory = new DirectoryInfo(AppContext.BaseDirectory);

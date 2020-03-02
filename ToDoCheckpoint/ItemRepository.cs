@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace ToDoCheckpoint
 {
-    public class ItemRepository
+    internal class ItemRepository
     {
         ItemContext context = new ItemContext();
 
@@ -17,7 +17,7 @@ namespace ToDoCheckpoint
 
         public List<ToDoItem> GetToDoItems() //lists all todo items
         {
-            IEnumerable<ToDoItem> list = context.ToDoItem;
+            IEnumerable<ToDoItem> list = context.ToDoItems;
             return list.ToList();
         }
         public List<ToDoItem> GetPendingItems() //prints pending list
@@ -36,16 +36,16 @@ namespace ToDoCheckpoint
             context.ToDoItems.Add(item);
             context.SaveChanges();
         }
-        public void UpdateItem(int id, string newDescription)  //updates an item from the list
+        public void UpdateItem(int Id)  //updates an item from the list // changed to status
         {
-            ToDoItem oldItem = context.ToDoItems.Where(item => item.Id == id).FirstOrDefault();
-            oldItem.Description = newDescription;
+            ToDoItem oldItem = context.ToDoItems.Where(item => item.Id == Id).FirstOrDefault();
+            oldItem.Status = oldItem.Status == false ? true : false; //fancy if else statement
             context.Update(oldItem);
             context.SaveChanges();
         }
-        public void DeleteItem(int id) //should delete an item
+        public void DeleteItem(int Id) //should delete an item
         {
-            ToDoItem deleteItem = context.ToDoItems.Where(item => item.Id == id).FirstOrDefault();
+            ToDoItem deleteItem = context.ToDoItems.Where(item => item.Id == Id).FirstOrDefault();
             context.ToDoItems.Remove(deleteItem);
             context.SaveChanges();
         }
